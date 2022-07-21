@@ -1,0 +1,70 @@
+body {
+    font-family: "Open Sans", Sans-serif;
+    color: #7f7d8e;
+}
+
+
+/************************ HEADER *************************/
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/************************ CABEÇALHO PRIMARIO *************************/
+
+.cabecalho .cabecalhoPrimario {
+    background-color: #e7e7e7;
+    border-bottom: 2px solid grey;
+}
+
+.conteudoCabecalhoPrimario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 10px 20px;
+}
+
+.conteudoCabecalhoPrimario img {
+    max-width: 179px;
+}
+
+.conteudoCabecalhoPrimario p {
+    width: 50%;
+    margin-right: 15%;
+}
+
+
+/************************ CABEÇALHO SECUNDARIO *************************/
+
+.conteudoCabecalhoSegundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opcoesCabecalhoLista {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: #500878;
+}
+
+.conteudoCabecalhoSegundo img {
+    width: 183px;
+}
+
+
+/************************ HERO BANNER *************************/
+
+.conteudo {
+    height: 540px;
+}
+
+.conteudo img {
+    width: 50%;
+}
